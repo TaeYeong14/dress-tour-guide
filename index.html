@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DRESS TOUR DAY</title>
+  <meta
+    name="description"
+    content="2026.08.13 태영이의 드레스투어 가이드"
+  />
+
+  <!-- 카카오톡 / SNS 링크 미리보기 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="DRESS TOUR DAY 👰🏻‍♀️" />
+  <meta
+    property="og:description"
+    content="2026.08.13 태영이의 드레스투어에 함께해주세요 ♡"
+  />
+
+  <meta
+    property="og:image"
+    content="https://taeyeong14.github.io/dress-tour-guide/images/thumbnail.jpg"
+  />
+
+  <meta
+    property="og:url"
+    content="https://taeyeong14.github.io/dress-tour-guide/"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <style>
+    :root {
+      --bg: #f6f9ff;
+      --surface: #ffffff;
+
+      --blue-50: #f3f8ff;
+      --blue-100: #e7f2ff;
+      --blue-200: #d8eafd;
+      --blue-300: #bcd9f4;
+
+      --lavender-50: #faf7ff;
+      --lavender-100: #f0eafd;
+      --lavender-200: #e3d8f8;
+      --lavender-300: #c9b6ed;
+
+      --cream-50: #fffaf1;
+      --cream-100: #f8ecd6;
+
+      --text: #4d5364;
+      --text-dark: #3d4353;
+      --text-light: #7b8292;
+      --line: #e7ebf2;
+
+      --shadow:
+        0 16px 40px rgba(100, 120, 150, 0.08);
+
+      --radius-lg: 28px;
+      --radius-md: 20px;
+
+      --content-width: 520px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+      word-break: keep-all;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    button,
+    input,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .app {
+      width: 100%;
+      min-height: 100vh;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.78);
+      overflow: hidden;
+    }
+
+    .section {
+      width: min(100%, var(--content-width));
+      margin: 0 auto;
+      padding: 74px 22px;
+    }
+
+    .section-soft {
+      background:
+        linear-gradient(
+          180deg,
+          rgba(246, 250, 255, 0.95),
+          rgba(250, 247, 255, 0.95)
+        );
+    }
+
+    .section-white {
+      background: #fff;
+    }
+
+    .section-label {
+      margin-bottom: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      color: #9588ad;
+    }
+
+    .section-title {
+      font-family: "DM Serif Display", serif;
+      font-weight: 400;
+      font-size: clamp(30px, 8vw, 38px);
+      line-height: 1.1;
+      color: var(--text-dark);
+    }
+
+    .section-subtitle {
+      display: block;
+      margin-top: 9px;
+      font-family: "Noto Sans KR", sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-light);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* =========================
+       1. COVER
+    ========================= */
+
+    .cover {
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 34px 22px 28px;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at 18% 18%,
+          rgba(210, 230, 250, 0.9),
+          transparent 36%
+        ),
+        radial-gradient(
+          circle at 82% 72%,
+          rgba(229, 218, 249, 0.9),
+          transparent 38%
+        ),
+        linear-gradient(
+          180deg,
+          #fbfdff 0%,
+          #f8faff 100%
+        );
+    }
+
+    .cover-top {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      color: #8f96a5;
+    }
+
+    .cover-main {
+      width: min(100%, 480px);
+      padding: 18px 0;
+    }
+
+    .cover-icon {
+      margin-bottom: 24px;
+      font-size: 42px;
+    }
+
+    .cover-title {
+      font-family: "DM Serif Display", serif;
+      font-size: clamp(47px, 15vw, 68px);
+      font-weight: 400;
+      line-height: 0.95;
+      letter-spacing: 0.01em;
+      color: #41485c;
+    }
+
+    .cover-sub {
+      margin-top: 15px;
+      font-family: "DM Serif Display", serif;
+      font-size: 18px;
+      font-style: italic;
+      color: #8b80a6;
+    }
+
+    .cover-date {
+      margin-top: 34px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.17em;
+      color: #505869;
+    }
+
+    .cover-shops {
+      margin-top: 18px;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      line-height: 1.9;
+      color: var(--text-light);
+    }
+
+    .cover-message {
+      margin-top: 34px;
+      font-size: 14px;
+      color: #5a6070;
+    }
+
+    .scroll-guide {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      color: #a1a7b4;
+    }
+
+    .scroll-arrow {
+      display: block;
+      margin-top: 8px;
+      font-size: 18px;
+      animation: bounce 1.6s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(7px);
+      }
+    }
+
+    /* =========================
+       2. ABOUT
+    ========================= */
+
+    .definition-card {
+      margin-top: 28px;
+      padding: 27px 22px;
+      border-radius: var(--radius-lg);
+      background:
+        linear-gradient(
+          135deg,
+          var(--blue-50),
+          var(--lavender-50)
+        );
+      box-shadow: var(--shadow);
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .definition-card strong {
+      color: #74699b;
+    }
+
+    .purpose-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 9px;
+      margin-top: 22px;
+    }
+
+    .purpose-card {
+      min-height: 145px;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: var(--radius-md);
+      background: #fff;
+      border: 1px solid var(--line);
+      text-align: center;
+    }
+
+    .purpose-number {
+      font-family: "DM Serif Display", serif;
+      font-size: 21px;
+      color: #9a8eb2;
+    }
+
+    .purpose-title {
+      margin-top: 5px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+    }
+
+    .purpose-desc {
+      margin-top: 10px;
+      font-size: 10.5px;
+      line-height: 1.6;
+      color: var(--text-light);
+    }
+
+    /* =========================
+       3. MISSION
+    ========================= */
+
+    .mission-highlight {
+      margin-top: 28px;
+      padding: 28px 20px;
+      border-radius: var(--radius-lg);
+      background: #fff;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .mission-highlight p {
+      font-size: 14px;
+    }
+
+    .mission-highlight strong {
+      display: block;
+      margin-top: 6px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #7d6da4;
+    }
+
+    .mission-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .mission-item {
+      display: flex;
+      gap: 13px;
+      padding: 17px 17px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid var(--line);
+    }
+
+    .mission-icon {
+      width: 38px;
+      min-width: 38px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 18px;
+      background: var(--blue-100);
+    }
+
+    .mission-item:nth-child(even) .mission-icon {
+      background: var(--lavender-100);
+    }
+
+    .mission-name {
+      font-size: 13px;
+      font-weight: 700;
+      color: #4b5161;
+    }
+
+    .mission-desc {
+      margin-top: 3px;
+      font-size: 11.5px;
+      line-height: 1.6;
+      color: var(--text-light);
+    }
+
+    /* =========================
+       4. CREW
+    ========================= */
+
+    .crew-grid {
+      display: grid;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .crew-card {
+      padding: 21px 18px;
+      border-radius: 22px;
+      background: #fff;
+      border: 1px solid var(--line);
+      box-shadow:
+        0 8px 24px rgba(110, 124, 149, 0.06);
+    }
+
+    .crew-head {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+    }
+
+    .crew-avatar {
+      width: 48px;
+      min-width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+      font-size: 24px;
+      background: var(--blue-100);
+    }
+
+    .crew-card:nth-child(even) .crew-avatar {
+      background: var(--lavender-100);
+    }
+
+    .crew-name {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .crew-role {
+      margin-top: 2px;
+      font-family: "DM Serif Display", serif;
+      font-size: 14px;
+      color: #9184aa;
+      letter-spacing: 0.03em;
+    }
+
+    .crew-desc {
+      margin-top: 14px;
+      padding-left: 61px;
+      font-size: 12px;
+      line-height: 1.85;
+      color: var(--text-light);
+    }
+
+    /* =========================
+       5. TIMELINE
+    ========================= */
+
+    .timeline {
+      position: relative;
+      margin-top: 30px;
+      padding-left: 27px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 8px;
+      bottom: 16px;
+      width: 2px;
+      background:
+        linear-gradient(
+          to bottom,
+          #e8ded2,
+          #bad7ef,
+          #cdbce9,
+          #babfe8,
+          #e4c984
+        );
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 26px;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: -26px;
+      top: 7px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      box-shadow:
+        0 0 0 1px rgba(130,145,170,.15);
+    }
+
+    .timeline-time {
+      margin-bottom: 8px;
+      font-family: "DM Serif Display", serif;
+      font-size: 19px;
+      color: #79808f;
+    }
+
+    .timeline-card {
+      padding: 20px 18px;
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+    }
+
+    .timeline-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #9289a6;
+    }
+
+    .timeline-title {
+      margin-top: 5px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #4d5363;
+    }
+
+    .timeline-desc {
+      margin-top: 8px;
+      font-size: 12px;
+      line-height: 1.75;
+      color: var(--text-light);
+    }
+
+    .timeline-pill {
+      display: inline-flex;
+      margin-top: 11px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.72);
+      font-size: 10px;
+      color: #747b8b;
+    }
+
+    .makeup .timeline-dot {
+      background: #dfd1c1;
+    }
+
+    .makeup .timeline-card {
+      background: var(--cream-50);
+    }
+
+    .brideyoung .timeline-dot {
+      background: #9cc7e7;
+    }
+
+    .brideyoung .timeline-card {
+      background: #edf7ff;
+    }
+
+    .reine .timeline-dot {
+      background: #bca6de;
+    }
+
+    .reine .timeline-card {
+      background: #f4effc;
+    }
+
+    .kenneth .timeline-dot {
+      background: #adb4e4;
+    }
+
+    .kenneth .timeline-card {
+      background:
+        linear-gradient(
+          135deg,
+          #eef7ff,
+          #f5effd
+        );
+    }
+
+    .dinner .timeline-dot {
+      background: #d9b660;
+    }
+
+    .dinner .timeline-card {
+      background: #fff8e8;
+    }
+
+    /* =========================
+       6. SHOP GUIDE
+    ========================= */
+
+    .shop-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 6px;
+      margin-top: 28px;
+      padding: 5px;
+      border-radius: 18px;
+      background: #f1f4f9;
+    }
+
+    .shop-tab {
+      padding: 11px 5px;
+      border-radius: 14px;
+      background: transparent;
+      cursor: pointer;
+      font-size: 9.5px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #858c9c;
+      transition: 0.25s ease;
+    }
+
+    .shop-tab.active {
+      background: #fff;
+      color: #6f6689;
+      box-shadow:
+        0 5px 14px rgba(95, 112, 139, 0.08);
+    }
+
+    .shop-panel {
+      display: none;
+      margin-top: 20px;
+      animation: panelFade 0.28s ease;
+    }
+
+    .shop-panel.active {
+      display: block;
+    }
+
+    @keyframes panelFade {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .shop-card {
+      padding: 25px 20px;
+      border-radius: 26px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(
+          145deg,
+          #fcfdff,
+          #faf7ff
+        );
+      box-shadow: var(--shadow);
+    }
+
+    .shop-number {
+      font-family: "DM Serif Display", serif;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: #998cae;
+    }
+
+    .shop-name {
+      margin-top: 4px;
+      font-size: 23px;
+      font-weight: 700;
+      color: #464c5d;
+    }
+
+    .shop-name-en {
+      margin-top: 2px;
+      font-family: "DM Serif Display", serif;
+      font-size: 15px;
+      color: #9186a8;
+    }
+
+    .shop-dress-count {
+      margin-top: 10px;
+      font-size: 11px;
+      color: var(--text-light);
+    }
+
+    .instagram-btn {
+      margin-top: 18px;
+      padding: 14px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 16px;
+      background:
+        linear-gradient(
+          135deg,
+          var(--lavender-100),
+          var(--blue-100)
+        );
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .instagram-note {
+      margin-top: 9px;
+      font-size: 10.5px;
+      line-height: 1.7;
+      color: var(--text-light);
+    }
+
+    .shop-info {
+      display: grid;
+      gap: 18px;
+      margin-top: 26px;
+    }
+
+    .info-block {
+      padding-top: 17px;
+      border-top: 1px solid var(--line);
+    }
+
+    .info-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      color: #9a8ead;
+    }
+
+    .info-title {
+      margin-top: 4px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #4b5161;
+    }
+
+    .info-desc {
+      margin-top: 5px;
+      font-size: 11.5px;
+      line-height: 1.75;
+      color: var(--text-light);
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 9px;
+    }
+
+    .tag {
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: #f0f4fa;
+      font-size: 9.5px;
+      color: #737b8c;
+    }
+
+    .review-btn {
+      display: block;
+      margin-top: 24px;
+      width: 100%;
+      padding: 15px 18px;
+      border-radius: 16px;
+      background: #5c6273;
+      color: #fff;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* =========================
+       7. FINAL VOTE
+    ========================= */
+
+    .final-section {
+      text-align: center;
+      background:
+        linear-gradient(
+          180deg,
+          #f8fbff,
+          #f5f0fc
+        );
+    }
+
+    .final-options {
+      display: grid;
+      gap: 9px;
+      margin-top: 24px;
+    }
+
+    .final-option {
+      padding: 14px 12px;
+      border-radius: 16px;
+      background: rgba(255,255,255,.75);
+      border: 1px solid var(--line);
+      font-size: 11px;
+      font-weight: 600;
+    }
+
+    .final-copy {
+      margin-top: 18px;
+      font-size: 11.5px;
+      line-height: 1.8;
+      color: var(--text-light);
+    }
+
+    .final-btn {
+      display: block;
+      margin-top: 26px;
+      padding: 17px 18px;
+      border-radius: 999px;
+      background:
+        linear-gradient(
+          135deg,
+          #aabfdd,
+          #b8a4da
+        );
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow:
+        0 12px 28px rgba(128,117,164,.2);
+    }
+
+    /* =========================
+       8. THANK YOU
+    ========================= */
+
+    .thankyou {
+      min-height: 75svh;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background:
+        radial-gradient(
+          circle at 12% 18%,
+          rgba(219,237,250,.9),
+          transparent 34%
+        ),
+        radial-gradient(
+          circle at 86% 76%,
+          rgba(230,219,248,.9),
+          transparent 36%
+        ),
+        #fbfdff;
+    }
+
+    .thankyou-inner {
+      width: min(100%, var(--content-width));
+      margin: 0 auto;
+      padding: 70px 24px;
+    }
+
+    .thankyou-heart {
+      font-size: 36px;
+    }
+
+    .thankyou-title {
+      margin-top: 17px;
+      font-family: "DM Serif Display", serif;
+      font-size: clamp(28px, 8vw, 36px);
+      line-height: 1.25;
+      font-weight: 400;
+      color: #42495b;
+    }
+
+    .thankyou-copy {
+      margin-top: 23px;
+      font-size: 12.5px;
+      line-height: 2;
+      color: #686f7f;
+    }
+
+    .thankyou-date {
+      margin-top: 27px;
+      font-family: "DM Serif Display", serif;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      color: #91889f;
+    }
+
+    /* =========================
+       RESPONSIVE
+    ========================= */
+
+    @media (min-width: 600px) {
+      .section {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      .purpose-card {
+        min-height: 155px;
+      }
+
+      .crew-desc {
+        font-size: 12.5px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding: 32px 0;
+        background:
+          linear-gradient(
+            135deg,
+            #edf4fb,
+            #f1edf8
+          );
+      }
+
+      .app {
+        max-width: 560px;
+        border-radius: 32px;
+        box-shadow:
+          0 24px 70px rgba(78, 92, 119, 0.14);
+      }
+
+      .cover {
+        min-height: 820px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      body {
+        padding: 50px 0;
+      }
+
+      .app {
+        max-width: 580px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="app">
+
+    <!-- =========================
+         1. COVER
+    ========================== -->
+
+    <section class="cover" id="cover">
+
+      <div class="cover-top">
+        WEDDING PREP
+      </div>
+
+      <div class="cover-main">
+
+        <div class="cover-icon">
+          👰🏻‍♀️
+        </div>
+
+        <h1 class="cover-title">
+          DRESS<br>
+          TOUR DAY
+        </h1>
+
+        <p class="cover-sub">
+          Finding my wedding dress ♡
+        </p>
+
+        <p class="cover-date">
+          2026 · 08 · 13 · THU
+        </p>
+
+        <p class="cover-shops">
+          BRIDE YOUNG · REINE BRIDAL<br>
+          THE KENNETH BLANC
+        </p>
+
+        <p class="cover-message">
+          태영이의 드레스샵을 찾아주세요 👰🏻‍♀️
+        </p>
+
+      </div>
+
+      <div class="scroll-guide">
+        SCROLL
+        <span class="scroll-arrow">⌄</span>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         2. WHAT IS DRESS TOUR
+    ========================== -->
+
+    <section class="section section-white reveal">
+
+      <div class="section-label">
+        01 · ABOUT
+      </div>
+
+      <h2 class="section-title">
+        What is Dress Tour?
+        <span class="section-subtitle">
+          드레스 투어란?
+        </span>
+      </h2>
+
+      <div class="definition-card">
+        드레스 투어는 본식에서 입을 드레스 한 벌을
+        바로 고르는 날이 아니라,
+        여러 드레스샵을 방문해 직접 피팅해보며
+        <strong>
+          나와 가장 잘 맞는 ‘드레스샵’을 선택하는 과정
+        </strong>
+        이에요.
+      </div>
+
+      <div class="purpose-grid">
+
+        <div class="purpose-card">
+
+          <div class="purpose-number">
+            01
+          </div>
+
+          <div class="purpose-title">
+            STYLE
+          </div>
+
+          <div class="purpose-desc">
+            어떤 디자인이<br>
+            태영이에게<br>
+            잘 어울리는지 찾기
+          </div>
+
+        </div>
+
+
+        <div class="purpose-card">
+
+          <div class="purpose-number">
+            02
+          </div>
+
+          <div class="purpose-title">
+            SHOP
+          </div>
+
+          <div class="purpose-desc">
+            샵별 드레스 스타일과<br>
+            서비스 비교하기
+          </div>
+
+        </div>
+
+
+        <div class="purpose-card">
+
+          <div class="purpose-number">
+            03
+          </div>
+
+          <div class="purpose-title">
+            PICK
+          </div>
+
+          <div class="purpose-desc">
+            세 곳 중<br>
+            최종 계약할<br>
+            드레스샵 결정하기
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         3. TODAY'S MISSION
+    ========================== -->
+
+    <section class="section section-soft reveal">
+
+      <div class="section-label">
+        02 · MISSION
+      </div>
+
+      <h2 class="section-title">
+        Today's Mission
+      </h2>
+
+      <div class="mission-highlight">
+
+        <p>
+          오늘 가장 중요한 건
+        </p>
+
+        <strong>
+          “드레스가 예쁜가?”보다<br>
+          “태영이한테 예쁜가?”
+        </strong>
+
+      </div>
+
+
+      <div class="mission-list">
+
+        <div class="mission-item">
+
+          <div class="mission-icon">
+            👀
+          </div>
+
+          <div>
+            <div class="mission-name">
+              얼굴을 봐주세요
+            </div>
+
+            <div class="mission-desc">
+              얼굴이 화사하고 또렷해 보이는지
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <div class="mission-icon">
+            👗
+          </div>
+
+          <div>
+            <div class="mission-name">
+              체형을 봐주세요
+            </div>
+
+            <div class="mission-desc">
+              상체·허리·어깨라인이 예뻐 보이는지
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <div class="mission-icon">
+            ✨
+          </div>
+
+          <div>
+            <div class="mission-name">
+              전체 분위기를 봐주세요
+            </div>
+
+            <div class="mission-desc">
+              태영이의 분위기와 드레스가 잘 어울리는지
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <div class="mission-icon">
+            📸
+          </div>
+
+          <div>
+            <div class="mission-name">
+              사진발도 봐주세요
+            </div>
+
+            <div class="mission-desc">
+              실제로 봤을 때뿐 아니라
+              사진에서도 예쁜지
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="mission-item">
+
+          <div class="mission-icon">
+            💭
+          </div>
+
+          <div>
+            <div class="mission-name">
+              솔직하게 말해주세요
+            </div>
+
+            <div class="mission-desc">
+              “다 예뻐!” 금지 🚫<br>
+              예쁜 건 예쁘다,
+              아닌 건 아니라고 말하기 ㅋㅋ
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         4. DRESS TOUR CREW
+    ========================== -->
+
+    <section class="section section-white reveal">
+
+      <div class="section-label">
+        03 · OUR TEAM
+      </div>
+
+      <h2 class="section-title">
+        Our Dress Tour Crew
+        <span class="section-subtitle">
+          오늘을 함께할 4인방
+        </span>
+      </h2>
+
+
+      <div class="crew-grid">
+
+        <article class="crew-card">
+
+          <div class="crew-head">
+
+            <div class="crew-avatar">
+              👰🏻‍♀️
+            </div>
+
+            <div>
+              <div class="crew-name">
+                태영
+              </div>
+
+              <div class="crew-role">
+                THE BRIDE
+              </div>
+            </div>
+
+          </div>
+
+          <div class="crew-desc">
+            오늘의 주인공<br>
+            열심히 입어보고
+            내 취향 솔직하게 표현하기
+          </div>
+
+        </article>
+
+
+        <article class="crew-card">
+
+          <div class="crew-head">
+
+            <div class="crew-avatar">
+              🤵🏻
+            </div>
+
+            <div>
+              <div class="crew-name">
+                신랑
+              </div>
+
+              <div class="crew-role">
+                REACTION MANAGER
+              </div>
+            </div>
+
+          </div>
+
+          <div class="crew-desc">
+            리액션 담당 👏🏻<br>
+            드레스별 감상평 +
+            당일 계약 혜택, 추가금 등
+            샵 정보 메모 담당<br>
+            그리고 드레스 그림에도 참가 ✏️
+          </div>
+
+        </article>
+
+
+        <article class="crew-card">
+
+          <div class="crew-head">
+
+            <div class="crew-avatar">
+              🎨
+            </div>
+
+            <div>
+              <div class="crew-name">
+                혜선
+              </div>
+
+              <div class="crew-role">
+                ART DIRECTOR
+              </div>
+            </div>
+
+          </div>
+
+          <div class="crew-desc">
+            미술 전공자의 눈으로 보는 드레스<br>
+            드레스 스케치 메인 담당 ✏️<br>
+            실루엣·디테일·특징 기록하기
+          </div>
+
+        </article>
+
+
+        <article class="crew-card">
+
+          <div class="crew-head">
+
+            <div class="crew-avatar">
+              📸
+            </div>
+
+            <div>
+              <div class="crew-name">
+                화원
+              </div>
+
+              <div class="crew-role">
+                PAPARAZZI
+              </div>
+            </div>
+
+          </div>
+
+          <div class="crew-desc">
+            태영 전담 파파라치 📷<br>
+            샵 분위기부터 피팅 모습까지
+            사진과 영상으로 오늘 하루 기록하기
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         5. TIMELINE
+    ========================== -->
+
+    <section class="section section-soft reveal">
+
+      <div class="section-label">
+        04 · SCHEDULE
+      </div>
+
+      <h2 class="section-title">
+        Tour Timeline
+        <span class="section-subtitle">
+          2026. 08. 13 THURSDAY
+        </span>
+      </h2>
+
+
+      <div class="timeline">
+
+        <div class="timeline-item makeup">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-time">
+            07:00
+          </div>
+
+          <div class="timeline-card">
+
+            <div class="timeline-label">
+              MAKE-UP DEMO
+            </div>
+
+            <div class="timeline-title">
+              💄 신랑 & 신부 먼저 하루 시작!
+            </div>
+
+            <div class="timeline-desc">
+              드레스투어에 앞서
+              메이크업 데모를 받으러 갑니다 ♡
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item brideyoung">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-time">
+            13:00
+          </div>
+
+          <div class="timeline-card">
+
+            <div class="timeline-label">
+              EVERYONE, MEET HERE!
+            </div>
+
+            <div class="timeline-title">
+              🤍 브라이드영
+            </div>
+
+            <div class="timeline-desc">
+              오늘의 4인 완전체 집합 장소!<br>
+              여기서부터 본격적인 드레스투어 START ♡
+            </div>
+
+            <div class="timeline-pill">
+              👗 약 4벌 피팅 예정
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item reine">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-time">
+            15:00
+          </div>
+
+          <div class="timeline-card">
+
+            <div class="timeline-label">
+              SECOND SHOP
+            </div>
+
+            <div class="timeline-title">
+              🩵 렌느브라이덜
+            </div>
+
+            <div class="timeline-desc">
+              두 번째 드레스 피팅.<br>
+              첫 번째 샵과 비교하면서
+              열심히 봐주세요!
+            </div>
+
+            <div class="timeline-pill">
+              👗 약 4벌 피팅 예정
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item kenneth">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-time">
+            17:00
+          </div>
+
+          <div class="timeline-card">
+
+            <div class="timeline-label">
+              LAST SHOP
+            </div>
+
+            <div class="timeline-title">
+              💜 더케네스블랑
+            </div>
+
+            <div class="timeline-desc">
+              오늘의 마지막 드레스샵!<br>
+              마지막까지 열심히 비교해주세요 ♡
+            </div>
+
+            <div class="timeline-pill">
+              👗 약 4벌 피팅 예정
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item dinner">
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-time">
+            AFTER TOUR
+          </div>
+
+          <div class="timeline-card">
+
+            <div class="timeline-label">
+              DINNER TIME
+            </div>
+
+            <div class="timeline-title">
+              🥩 꿀주먹
+            </div>
+
+            <div class="timeline-desc">
+              열심히 드레스를 봐준
+              드레스투어 크루와 함께 저녁식사 ♡<br><br>
+
+              고기 먹으면서
+              오늘의 드레스를 복기하고
+              최종 회의를 진행합니다!
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         6. SHOP GUIDE
+    ========================== -->
+
+    <section class="section section-white reveal">
+
+      <div class="section-label">
+        05 · SHOP GUIDE
+      </div>
+
+      <h2 class="section-title">
+        Dress Shops
+        <span class="section-subtitle">
+          오늘 방문할 드레스샵
+        </span>
+      </h2>
+
+
+      <div class="shop-tabs">
+
+        <button
+          type="button"
+          class="shop-tab active"
+          data-shop="brideyoung"
+        >
+          BRIDE<br>YOUNG
+        </button>
+
+        <button
+          type="button"
+          class="shop-tab"
+          data-shop="reine"
+        >
+          REINE<br>BRIDAL
+        </button>
+
+        <button
+          type="button"
+          class="shop-tab"
+          data-shop="kenneth"
+        >
+          KENNETH<br>BLANC
+        </button>
+
+      </div>
+
+
+      <!-- BRIDE YOUNG -->
+      <div
+        class="shop-panel active"
+        id="brideyoung"
+      >
+
+        <div class="shop-card">
+
+          <div class="shop-number">
+            01 · 13:00
+          </div>
+
+          <div class="shop-name">
+            브라이드영
+          </div>
+
+          <div class="shop-name-en">
+            BRIDE YOUNG
+          </div>
+
+          <div class="shop-dress-count">
+            👗 약 4벌 피팅 예정
+          </div>
+
+          <!-- 실제 인스타 주소로 교체 -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="instagram-btn"
+          >
+            <span>Instagram 구경하기</span>
+            <span>↗</span>
+          </a>
+
+          <div class="instagram-note">
+            방문 전에 Instagram을 구경해보세요 ♡<br>
+            태영이에게 입혀보고 싶은 드레스가 있다면 미리 PICK!
+          </div>
+
+
+          <div class="shop-info">
+
+            <div class="info-block">
+
+              <div class="info-label">
+                BASIC INFO
+              </div>
+
+              <div class="info-title">
+                기본 정보
+              </div>
+
+              <div class="info-desc">
+                주소 · 주차 · 발렛 · 예약 관련 정보를
+                여기에 넣어주세요.
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                SHOP STYLE
+              </div>
+
+              <div class="info-title">
+                대표적인 드레스 분위기
+              </div>
+
+              <div class="info-desc">
+                브라이드영의 대표 스타일과
+                특징을 여기에 정리해주세요.
+              </div>
+
+              <div class="tag-list">
+                <span class="tag">비즈</span>
+                <span class="tag">실크</span>
+                <span class="tag">레이스</span>
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                CHECK TODAY
+              </div>
+
+              <div class="info-title">
+                오늘 확인할 것
+              </div>
+
+              <div class="info-desc">
+                당일 계약 혜택 · 추가금 · 지정비 ·
+                본식 관련 혜택 등을 확인해주세요.
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <!-- 실제 구글폼 주소로 교체 -->
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="review-btn"
+          >
+            피팅 후 브라이드영 평가 남기기 ♡
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- REINE -->
+      <div
+        class="shop-panel"
+        id="reine"
+      >
+
+        <div class="shop-card">
+
+          <div class="shop-number">
+            02 · 15:00
+          </div>
+
+          <div class="shop-name">
+            렌느브라이덜
+          </div>
+
+          <div class="shop-name-en">
+            REINE BRIDAL
+          </div>
+
+          <div class="shop-dress-count">
+            👗 약 4벌 피팅 예정
+          </div>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="instagram-btn"
+          >
+            <span>Instagram 구경하기</span>
+            <span>↗</span>
+          </a>
+
+          <div class="instagram-note">
+            방문 전에 Instagram을 구경해보세요 ♡<br>
+            태영이에게 입혀보고 싶은 드레스가 있다면 미리 PICK!
+          </div>
+
+
+          <div class="shop-info">
+
+            <div class="info-block">
+
+              <div class="info-label">
+                BASIC INFO
+              </div>
+
+              <div class="info-title">
+                기본 정보
+              </div>
+
+              <div class="info-desc">
+                주소 · 주차 · 발렛 · 예약 관련 정보를
+                여기에 넣어주세요.
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                SHOP STYLE
+              </div>
+
+              <div class="info-title">
+                대표적인 드레스 분위기
+              </div>
+
+              <div class="info-desc">
+                렌느브라이덜의 대표 스타일과
+                특징을 여기에 정리해주세요.
+              </div>
+
+              <div class="tag-list">
+                <span class="tag">비즈</span>
+                <span class="tag">실크</span>
+                <span class="tag">레이스</span>
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                CHECK TODAY
+              </div>
+
+              <div class="info-title">
+                오늘 확인할 것
+              </div>
+
+              <div class="info-desc">
+                당일 계약 혜택 · 추가금 · 지정비 ·
+                본식 관련 혜택 등을 확인해주세요.
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="review-btn"
+          >
+            피팅 후 렌느브라이덜 평가 남기기 ♡
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- KENNETH -->
+      <div
+        class="shop-panel"
+        id="kenneth"
+      >
+
+        <div class="shop-card">
+
+          <div class="shop-number">
+            03 · 17:00
+          </div>
+
+          <div class="shop-name">
+            더케네스블랑
+          </div>
+
+          <div class="shop-name-en">
+            THE KENNETH BLANC
+          </div>
+
+          <div class="shop-dress-count">
+            👗 약 4벌 피팅 예정
+          </div>
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="instagram-btn"
+          >
+            <span>Instagram 구경하기</span>
+            <span>↗</span>
+          </a>
+
+          <div class="instagram-note">
+            방문 전에 Instagram을 구경해보세요 ♡<br>
+            태영이에게 입혀보고 싶은 드레스가 있다면 미리 PICK!
+          </div>
+
+
+          <div class="shop-info">
+
+            <div class="info-block">
+
+              <div class="info-label">
+                BASIC INFO
+              </div>
+
+              <div class="info-title">
+                기본 정보
+              </div>
+
+              <div class="info-desc">
+                주소 · 주차 · 발렛 · 예약 관련 정보를
+                여기에 넣어주세요.
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                SHOP STYLE
+              </div>
+
+              <div class="info-title">
+                대표적인 드레스 분위기
+              </div>
+
+              <div class="info-desc">
+                더케네스블랑의 대표 스타일과
+                특징을 여기에 정리해주세요.
+              </div>
+
+              <div class="tag-list">
+                <span class="tag">비즈</span>
+                <span class="tag">실크</span>
+                <span class="tag">레이스</span>
+              </div>
+
+            </div>
+
+
+            <div class="info-block">
+
+              <div class="info-label">
+                CHECK TODAY
+              </div>
+
+              <div class="info-title">
+                오늘 확인할 것
+              </div>
+
+              <div class="info-desc">
+                당일 계약 혜택 · 추가금 · 지정비 ·
+                본식 관련 혜택 등을 확인해주세요.
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="review-btn"
+          >
+            피팅 후 더케네스블랑 평가 남기기 ♡
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         7. FINAL VOTE
+    ========================== -->
+
+    <section class="section final-section reveal">
+
+      <div class="section-label">
+        06 · FINAL CHOICE
+      </div>
+
+      <h2 class="section-title">
+        So... Which One?
+        <span class="section-subtitle">
+          태영이의 드레스샵을 골라주세요 ♡
+        </span>
+      </h2>
+
+
+      <div class="final-options">
+
+        <div class="final-option">
+          🤍 BRIDE YOUNG
+        </div>
+
+        <div class="final-option">
+          🩵 REINE BRIDAL
+        </div>
+
+        <div class="final-option">
+          💜 THE KENNETH BLANC
+        </div>
+
+      </div>
+
+
+      <p class="final-copy">
+        세 곳의 투어가 모두 끝났다면<br>
+        마지막으로 최종 의견을 들려주세요.
+      </p>
+
+      <!-- 실제 최종 구글폼 주소로 교체 -->
+      <a
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="final-btn"
+      >
+        FINAL VOTE 🗳️
+      </a>
+
+    </section>
+
+
+    <!-- =========================
+         8. THANK YOU
+    ========================== -->
+
+    <section class="thankyou reveal">
+
+      <div class="thankyou-inner">
+
+        <div class="thankyou-heart">
+          ♡
+        </div>
+
+        <h2 class="thankyou-title">
+          THANK YOU FOR JOINING<br>
+          MY DRESS TOUR
+        </h2>
+
+        <p class="thankyou-copy">
+          함께 드레스 봐주고,<br>
+          열심히 찍어주고, 그려주고,<br>
+          리액션해줄 여러분께 미리 감사드립니다 🤍
+          <br><br>
+
+          여러분의 소중한 의견을 적극 참고해서<br>
+          저에게 가장 잘 어울리는 드레스샵을<br>
+          찾아볼게요 👰🏻‍♀️
+          <br><br>
+
+          우리 모두 열일해보자구요 ♡
+        </p>
+
+        <div class="thankyou-date">
+          2026 · 08 · 13
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script>
+
+    /* =========================
+       SHOP TABS
+    ========================== */
+
+    const tabs = document.querySelectorAll(".shop-tab");
+    const panels = document.querySelectorAll(".shop-panel");
+
+    tabs.forEach((tab) => {
+
+      tab.addEventListener("click", () => {
+
+        const target = tab.dataset.shop;
+
+        tabs.forEach((item) => {
+          item.classList.remove("active");
+        });
+
+        panels.forEach((panel) => {
+          panel.classList.remove("active");
+        });
+
+        tab.classList.add("active");
+
+        document
+          .getElementById(target)
+          .classList.add("active");
+
+      });
+
+    });
+
+
+    /* =========================
+       SCROLL REVEAL
+    ========================== */
+
+    const reveals =
+      document.querySelectorAll(".reveal");
+
+    const observer =
+      new IntersectionObserver(
+        (entries) => {
+
+          entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add("visible");
+
+              observer.unobserve(entry.target);
+
+            }
+
+          });
+
+        },
+        {
+          threshold: 0.12
+        }
+      );
+
+
+    reveals.forEach((element) => {
+      observer.observe(element);
+    });
+
+  </script>
+
+</body>
+</html>
